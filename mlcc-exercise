@@ -1,0 +1,124 @@
+=========================
+MLCC PROGRAMMING EXERCISE
+=========================
+
+[SIMPLE LINEAR REGRESSION WITH SYNTHETIC DATA]
+1. Use the right version of TensorFlow
+2. Import relevant modules
+3. Define functions that build and train a model
+4. Define plotting functions
+5. Define the dataset
+6. Specify the hyperparameters
+#task1: Examine the graphs
+#task2: Increase the number of epochs
+#task3: Increase the learning rate
+#task4: Find the ideal combination of epochs and learning rate
+#task5: Adjust the batch size
+
+[LINEAR REGRESSION WITH A REAL DATASET]
+1. Use the right version of TensorFlow
+2. Import relevant modules
+3. Load the .csv file into a pandas DataFrame
+4. Examine the dataset
+#task1: Identify anomalies in the dataset
+5. Define functions that build and train a model
+6. Define plotting functions
+7. Use the model to make predictions
+#task2: Judge the predictive power of the model
+#task3: Try a different feature
+#task4: Define a synthetic feature
+#task5: Find feature(s) whose raw values correlate with the label
+
+[VALIDATION SETS AND TEST SETS]
+1. Use the right version of TensorFlow
+2. Import relevant modules
+3. Load the datasets from the internet
+4. Scale the label values
+5. Load the functions that build and train a model
+6. Define plotting functions
+#task1: Experiment with the validation split
+#task2: Determine why the loss curves differ
+#task3: Fix the problem
+#task4: Use the test dataset to evaluate your model's performance
+
+[REPRESENTATION WITH A FEATURE CROSS]
+1. Use the right version of TensorFlow
+2. Call the import statements
+3. Load, scale, and shuffle the examples
+4. Represent lattitude and longitude as floating-point values
+5. Define functions that create and train a model, and a plotting function
+6. Train the model with floating-point representations
+#task1: Why aren't floating point values a good way to represent latitude and longitude
+7. Represent latitude and longitude in buckets
+8. Train the model with bucket representations
+#task2: Did buckets outperform floating-point representations?
+#task3: What is a better way to represent location?
+9. Represent location as a feature cross
+#task4: Did the feature cross outperform buckets?
+#task5: Adjust the resolution of the feature cross
+
+[BINARY CLASSIFICATION]
+1. Use the right version of TensorFlow
+2. Call the import statements
+3. Load the datasets from the internet
+4. Normalize values
+#task1: Create a binary label
+5. Represent features in feature columns
+6. Define functions that build and train a model
+7. Define a plotting function
+8. Invoke the creating, training, and plotting functions
+9. Evaluate the model against the test set
+#task2: How accurate is your model really?
+#task3: Add precision and recall as metrics
+#task4: Experiment with the classification threshold
+#task5: Summarize the model performance (if time permits)
+
+[INTRODUCTION TO NEURAL NETS]
+1. Use the right version of TensorFlow
+2. Import relevant modules
+3. Load the dataset
+4. Normalize values
+(Convert raw values to their z-scores)
+5. Represent data
+6. Build a linear regression model as a baseline
+(Define the plotting function)
+(Define functions to create and train a linear regression model)
+7. Define a deep neural net model
+8. Define a training function
+9. Call the functions to build and train a deep neural net
+#task1: Compare the two models
+#task2: Optimize the deep neural network's topography
+#task3: Regularize the deep neural network
+
+[MULTI-CLASS CLASSIFICATION]
+1. Use the right version of TensorFlow
+2. Import relevant modules
+3. Load the dataset
+4. View the dataset
+#task1: Normalize feature values
+5. Define a plotting function
+6. Create a deep neural net model
+7. Invoke the previous functions
+#task2: Optimize the model
+
+[INTRODUCTION TO FAIRNESS IN ML]
+1. Set up
+(Run on TensorFlow 2.x)
+(Import relevant modules and install Facets)
+(Load the adult dataset)
+2. Analyzing the adult dataset with Facets
+(Visualize the data in Facets)
+#task1: Review the descriptive statistics and histograms
+#task2: Fairness-related questions
+3. Predicting income using the Keras API
+(Convert adult dataset into tensors)
+(Represent features in TensorFlow)
+(Define the model features)
+(Train a deep neural net model on adult dataset)
+((Define deep neural net model))
+((Fit deep neural net model to the adult training dataset))
+((Evaluate deep neural ent performance))
+4. Evaluating for fairness using a confusion matrix
+(Plot the confusion matrix)
+((Define function to visualize binary confusion matrix))
+#task4: Visualize binary confusion matrix and compute evaluation matrix for subgroup
